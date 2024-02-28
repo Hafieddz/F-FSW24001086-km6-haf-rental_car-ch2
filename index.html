@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rental Car </title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--  Navbar -->
+    <nav class="navbar navbar-expand-lg py-3" aria-label="Offcanvas navbar large">
+        <div class="container">
+            <a class="navbar-brand fw-bolder" href="#"> Rental Mobil </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2" fdprocessedid="ids8yv">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fw-bold" id="offcanvasNavbar2Label">Rental Mobil </h5>
+                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end align-items-md-center flex-grow-1 gap-3 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link fw-light text-black" aria-current="page" href="#our-services"> Our
+                                Services </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-light text-black" href="#why-us"> Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-light text-black" href="#testimonial"> Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-light text-black" href="#faq"> FAQ </a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-success btn-sm px-3 py-2">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar  -->
+
+    <main>
+        <!-- Banner Hero Section -->
+        <section class="hero-section overflow-hidden mb-5 mb-xl-0">
+            <div class="row d-flex justify-content-between align-items-center ms-xl-5">
+                <div class="col-12 col-md-5 ps-md-5 ps-xl-5 pe-xl-0 px-5 py-5">
+                    <h1 class="fw-bolder fs-1 mb-4"> Sewa & Rental Mobil Terbaik di kawasan Makassar </h1>
+                    <p class="fs-6"> Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan
+                        harga
+                        terjangkau.
+                        Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam. </p>
+                    <button class="btn btn-success btn-md fw-semibold">Mulai Sewa Mobil</button>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="./assets/img/car_image.png" class="hero-section__image " alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Banner Hero Section -->
+
+        <!-- Services Section -->
+        <section class="container-fluid py-md-5 py-0" id="our-services">
+            <div class="row p-xl-5 justify-content-center align-items-center">
+                <div class="col-xl-6 col-12 d-flex justify-content-center">
+                    <img src="./assets/img/person_image.png" class="why-us__image " alt="">
+                </div>
+                <div class="col-xl-6 col-12 px-md-5 px-3 mt-4 mt-md-0">
+                    <h2> Best Car Rental for any kind of trip in Makassar </h2>
+                    <p>
+                        Sewa mobil di Makassar bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang
+                        lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                        wedding, meeting, dll.
+                    </p>
+                    <div class="container-fluid d-flex flex-column gap-2">
+                        <div class="d-flex gap-4 align-items-center">
+                            <img src="./assets/img/icon/icon_checklist.svg" alt="">
+                            <p class="m-0"> Sewa Mobil Dengan Supir di Makassar 12 Jam </p>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center">
+                            <img src="./assets/img/icon/icon_checklist.svg" alt="">
+                            <p class="m-0"> Sewa Mobil Lepas Kunci di Makassar 24 Jam </p>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center">
+                            <img src="./assets/img/icon/icon_checklist.svg" alt="">
+                            <p class="m-0"> Sewa Mobil Jangka Panjang Bulanan </p>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center">
+                            <img src="./assets/img/icon/icon_checklist.svg" alt="">
+                            <p class="m-0"> Gratis Antar - Jemput Mobil di Bandara </p>
+                        </div>
+                        <div class="d-flex gap-4 align-items-center">
+                            <img src="./assets/img/icon/icon_checklist.svg" alt="">
+                            <p class="m-0"> Layanan Airport Transfer / Drop In Out </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+
+        <!-- Why Us Section -->
+        <section class="container-md container-fluid my-5" id="why-us">
+            <div class="col-12">
+                <div class="container text-md-start text-center">
+                    <h2> Why Us?</h2>
+                    <p> Mengapa harus memilih rental kami? </p>
+                </div>
+                <div class="row gap-3 justify-content-center justify-content-md-start">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column">
+                            <img src="./assets/img/icon/icon_complete.svg" class="why-section__icon my-3" alt="">
+                            <h5 class="card-title">Mobil Lengkap</h5>
+                            <p class="card-text mt-2">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column">
+                            <img src="./assets/img/icon/icon_price.svg" class="why-section__icon my-3" alt="">
+                            <h5 class="card-title"> Harga Murah </h5>
+                            <p class="card-text mt-2">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column">
+                            <img src="./assets/img/icon/icon_24hrs.svg" class="why-section__icon my-3" alt="">
+                            <h5 class="card-title">Layanan 24 Jam</h5>
+                            <p class="card-text mt-2">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column">
+                            <img src="./assets/img/icon/icon_professional.svg" class="why-section__icon my-3" alt="">
+                            <h5 class="card-title">Sopir Professional</h5>
+                            <p class="card-text mt-2">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Why Us Section -->
+
+        <!-- Testimonial Section -->
+        <section id="testimonial" class="container-fluid p-0 my-5">
+            <div class="text-center">
+                <h2 class="fw-bold"> Testimonial</h2>
+                <p> Berbagai review positif dari pelanggan kami</p>
+            </div>
+            <div class="container col-xl-7 col-md-10 col-12">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <!-- Carousel #1 -->
+                        <div class="carousel-item active">
+                            <div class="col-12 testimonial-carousel__body p-5">
+                                <div class="row justify-content-center h-100 align-items-center gap-1 gap-md-5">
+                                    <div class="col-md-1 col-12 d-flex justify-content-center">
+                                        <img src="./assets/img/person_image4.jpg" height="100px" width="100px"
+                                            class="d-block testimonial-carousel__circle" alt="...">
+                                    </div>
+                                    <div class="col-md-6 col-12 d-flex flex-column">
+                                        <div class="col text-md-start text-center mt-md-0 mt-3">
+                                            <img src="./assets/img/icon/icon_rate.svg" width="100" class="" alt="">
+                                        </div>
+                                        <p class="fs-6 my-2 testimonial-carousel__text "> "Lorem ipsum, dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Inventore, recusandae eligendi, commodi alias asperiores reiciendis
+                                            consectetur
+                                            minima natus, hic magni impedit exercitationem earum quaerat tenetur
+                                            incidunt
+                                            iure eum placeat repellat non adipisci. Laudantium excepturi hic nulla
+                                            voluptatibus alias delectus ratione, maiores nobis! Reiciendis omnis
+                                            exercitationem, esse voluptates aut error eligendi." </p>
+                                        <p class="fs-5 fw-bold"> John Doe 32, Bromo </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel #1 -->
+
+                        <!-- Carousel #2 -->
+                        <div class="carousel-item">
+                            <div class="col-12 testimonial-carousel__body p-5">
+                                <div class="row justify-content-center h-100 align-items-center gap-1 gap-md-5">
+                                    <div class="col-md-1 col-12 d-flex justify-content-center">
+                                        <img src="./assets/img/person_image2.png" height="100px" width="100px"
+                                            class="d-block testimonial-carousel__circle" alt="...">
+                                    </div>
+                                    <div class="col-md-6 col-12 d-flex flex-column">
+                                        <div class="col text-md-start text-center mt-md-0 mt-3">
+                                            <img src="./assets/img/icon/icon_rate.svg" width="100" class="" alt="">
+                                        </div>
+                                        <p class="fs-6 my-2 testimonial-carousel__text "> "Lorem ipsum, dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Inventore, recusandae eligendi, commodi alias asperiores reiciendis
+                                            consectetur
+                                            minima natus, hic magni impedit exercitationem earum quaerat tenetur
+                                            incidunt
+                                            iure eum placeat repellat non adipisci. Laudantium excepturi hic nulla
+                                            voluptatibus alias delectus ratione, maiores nobis! Reiciendis omnis
+                                            exercitationem, esse voluptates aut error eligendi." </p>
+                                        <p class="fs-5 fw-bold"> John Doe 32, Bromo </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel #2 -->
+
+                        <!-- Carousel #3 -->
+                        <div class="carousel-item">
+                            <div class="col-12 testimonial-carousel__body p-5">
+                                <div class="row justify-content-center h-100 align-items-center gap-1 gap-md-5">
+                                    <div class="col-md-1 col-12 d-flex justify-content-center">
+                                        <img src="./assets/img/person_image3.png" height="100px" width="100px"
+                                            class="d-block testimonial-carousel__circle" alt="...">
+                                    </div>
+                                    <div class="col-md-6 col-12 d-flex flex-column">
+                                        <div class="col text-md-start text-center mt-md-0 mt-3">
+                                            <img src="./assets/img/icon/icon_rate.svg" width="100" class="" alt="">
+                                        </div>
+                                        <p class="fs-6 my-2 testimonial-carousel__text "> "Lorem ipsum, dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Inventore, recusandae eligendi, commodi alias asperiores reiciendis
+                                            consectetur
+                                            minima natus, hic magni impedit exercitationem earum quaerat tenetur
+                                            incidunt
+                                            iure eum placeat repellat non adipisci. Laudantium excepturi hic nulla
+                                            voluptatibus alias delectus ratione, maiores nobis! Reiciendis omnis
+                                            exercitationem, esse voluptates aut error eligendi." </p>
+                                        <p class="fs-5 fw-bold"> John Doe 32, Bromo </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel #3 -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <img src="./assets/img/icon/icon_left.svg" alt="">
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <img src="./assets/img/icon/icon_right.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial Section -->
+
+        <!-- CTA Banner -->
+        <section id="cta" class="container my-5">
+            <div class="bg-blue p-5 text-center text-white rounded-4 d-flex flex-column align-items-center">
+                <h2 class="fw-bolder"> Sewa Mobil di Makassar sekarang! </h2>
+                <p class="cta-text mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+                <button class="btn btn-success"> Mulai Sewa Mobil </button>
+            </div>
+
+        </section>
+        <!-- CTA Banner -->
+
+        <!-- FAQ -->
+        <section id="faq" class="container my-5">
+            <div class="row">
+                <div class="col-xl-5 col-12">
+                    <h2 class="fw-bold"> Frequently Question Asked </h2>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, modi. </p>
+                </div>
+                <div class="col-xl-7 col-12">
+                    <div class="accordion d-flex flex-column gap-3 border-black border-1" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Apa saja syarat yang dibutuhkan?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Berapa hari minimal sewa mobil lepas kunci?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Bagaimana jika terjadi kecelakaan
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- FAQ -->
+    </main>
+
+    <footer class="container py-xl-5">
+        <div class="row">
+            <div class="col-12 col-xl-3">
+                <ul class="list-unstyled d-flex flex-column gap-2 ">
+                    <li class="fs-6 "> Makassar, Sulawesi Selatan, Indonesia </li>
+                    <li class="fs-6 "> hasmy41@gmail.com </li>
+                    <li class="fs-6 "> 085-255-311-529 </li>
+                </ul>
+            </div>
+            <div class="col-12 col-xl-3">
+                <ul class="list-unstyled px-xl-5 d-flex flex-column gap-xl-0 gap-3">
+                    <li class="fs-6 fw-semibold"> Our Services </li>
+                    <li class="fs-6 fw-semibold"> Why Us</li>
+                    <li class="fs-6 fw-semibold"> Testimonial </li>
+                    <li class="fs-6 fw-semibold"> FAQ </li>
+                </ul>
+            </div>
+            <div class="col-12 col-xl-3">
+                <p> Connect with us </p>
+                <ul class="list-unstyled d-flex gap-2">
+                    <li> <img src="./assets/img/icon/icon_facebook.svg" alt="" class="footer__icon"> </li>
+                    <li> <img src="./assets/img/icon/icon_instagram.svg" alt="" class="footer__icon"> </li>
+                    <li> <img src="./assets/img/icon/icon_twitter.svg" alt="" class="footer__icon"> </li>
+                    <li> <img src="./assets/img/icon/icon_mail.svg" alt="" class="footer__icon"> </li>
+                    <li> <img src="./assets/img/icon/icon_twitch.svg" alt="" class="footer__icon"> </li>
+                </ul>
+            </div>
+            <div class="col-12 col-xl-3">
+                <p> Copyright Rental Mobil 2024 </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

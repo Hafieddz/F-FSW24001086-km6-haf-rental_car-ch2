@@ -1,0 +1,11 @@
+{
+  "name": "f-fsw24001086-km6-haf-rental_car-ch2",
+  "version": "1.0.0",
+  "description": "Challenge 2 - Binar Academy | Hafiedz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hafiedz Hasmy Hamid",
+  "license": "ISC"
+}

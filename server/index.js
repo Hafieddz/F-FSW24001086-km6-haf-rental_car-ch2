@@ -8,7 +8,7 @@ const port = 8000;
 
 const server = (req, res) => {
     if (req.url === "/") {
-        req.url = "/index.html"
+        req.url = '/index.html'
     } else if (req.url === '/cars') {
         req.url = '/search_car.html'
     } else {
@@ -29,10 +29,10 @@ const server = (req, res) => {
 
     fs.readFile(absolutePath, (err, data) => {
         if (err) {
-            res.statusCode = 500;
-            res.end("File not found ...");
+            res.statusCode = 404;
+            res.end('Page Not Found!');
         } else {
-            res.setHeader("Content-Type", contentTypes[extension] || "text/plain");
+            res.setHeader("Content-Type", contentTypes[extension] || 'text/plain');
             res.end(data);
         }
     });

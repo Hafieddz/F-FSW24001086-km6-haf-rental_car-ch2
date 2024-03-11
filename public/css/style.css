@@ -96,11 +96,15 @@ body {
 }
 
 /* Page Search Car */
+#cars {
+  background-color: #f7f7f7; 
+}
+
 #search-car {
-  position: absolute;
+  position: relative;
   background-color: transparent;
   width: 100%;
-  top: 60%;
+  margin-top: -50px;
   padding: 0 180px;
 }
 
@@ -125,7 +129,7 @@ body {
 }
 
 #search-passenger, #search-passenger:active {
-  background: url('../img/icon/icon_passenger.svg') ;
+  background: url('../images/icon/icon_passenger.svg');
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: center;
@@ -188,12 +192,35 @@ span.dropdown-icon {
   padding: 8px 12px;
 }
 
-@media screen and (max-width : 1500px) {
-  #search-car {
-    position: relative;
-    margin-top: 20px;
-  }
-  
+#search-result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.car-card {
+  padding: 14px;
+  width: 330px;
+  height: 590px;
+  border-radius: 8px;
+  border: 1px solid rgb(202, 202, 202);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.car-card__image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.car-card__description {
+  height: 90px;
 }
 
 @media screen and (max-width : 991px) {
@@ -219,10 +246,6 @@ span.dropdown-icon {
     align-items: start;
   }
 
-  #search-car {
-    padding: 10px;
-  }
-
 }
 
 @media screen and (max-width : 550px) {
@@ -233,11 +256,6 @@ span.dropdown-icon {
 
   .cta-text {
     width: 100%;
-  }
-
-  #search-car {
-    margin-top: 0;
-    padding: 10px;
   }
 
   #search-container {

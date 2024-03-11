@@ -6,8 +6,11 @@ const passengerValue = document.getElementById('search-passenger');
 
 const result = document.getElementById('search-result');
 
+console.log('Script is ready!');
+
 const getDriverType = (val) => {
    driverType.innerText = val; 
+   console.log(driverType.innerText);
 }
 
 const getTime = (val) => {
